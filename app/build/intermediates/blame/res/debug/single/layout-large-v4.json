@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\voicerecorderdelete.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\voicerecorderdelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\inputkeyboardtalkback.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\inputkeyboardtalkback.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\voicerecorderlist.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\voicerecorderlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\alarmsnotifier.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\alarmsnotifier.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\alarmsdelete.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\alarmsdelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\calls.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\calls.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\callsanswerreject.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\callsanswerreject.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\bookmarkslist.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\bookmarkslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\callslogsdelete.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\callslogsdelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\callsmake.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\callsmake.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\contactscreate.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\contactscreate.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\inputkeyboard.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\inputkeyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\alarmslist.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\alarmslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\contactsdelete.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\contactsdelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\musicplayerartist.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\musicplayerartist.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\bookmarksdelete.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\bookmarksdelete.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\contactslist.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\contactslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\voicerecordercreate.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\voicerecordercreate.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\alarms.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\alarms.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\applications.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\applications.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\inputvoice.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\inputvoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\browser.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\browser.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\messagessent.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\messagessent.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\messages.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third-Eye\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\main.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third-Eye\\app\\src\\main\\res\\layout-large\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\contacts.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\browserpageviewer.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\browserpageviewer.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\musicplayer.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\musicplayer.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\settings.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\main.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\messagesinbox.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\messagesinbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\alarmscreate.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\alarmscreate.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third-Eye\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\settings.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third-Eye\\app\\src\\main\\res\\layout-large\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\messagescompose.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\messagescompose.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\callslogs.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\callslogs.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\voicerecorder.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\voicerecorder.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-v4\\messagesdelete.xml",
+        "source": "C:\\Users\\hp\\Desktop\\Third Eye1\\app\\src\\main\\res\\layout-large\\messagesdelete.xml"
+    }
+]

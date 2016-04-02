@@ -1,0 +1,683 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:2:1-353:12
+	package
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:7:5-74
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\hp\Desktop\Third-Eye\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:7:42-71
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WRITE_SMS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:12:22-67
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:13:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:16:22-69
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:17:22-70
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:18:5-69
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:18:22-66
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:19:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:21:22-63
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:23:22-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:24:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:25:5-78
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:26:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:27:22-73
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:28:5-72
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:28:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:30:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:31:5-67
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:31:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:32:5-68
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:32:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:33:5-77
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:33:22-75
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:34:2-64
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:34:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:35:2-70
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:35:19-68
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:37:2-85
+	android:required
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:37:58-82
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:37:16-57
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:38:5-87
+	android:required
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:38:61-85
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:38:19-60
+uses-feature#android.hardware.microphone
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:39:2-85
+	android:required
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:39:59-83
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:39:16-58
+supports-screens
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:41:5-46:41
+	android:largeScreens
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:44:14-41
+	android:smallScreens
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:42:14-41
+	android:normalScreens
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:43:14-42
+	android:xlargeScreens
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:45:14-42
+	android:resizeable
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:41:23-48
+	android:anyDensity
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:46:14-39
+application
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:48:5-352:19
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\hp\Desktop\Third-Eye\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:51:9-41
+	android:allowBackup
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:49:9-35
+	android:icon
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:50:9-45
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:52:9-40
+activity#com.Appic.ThirdEye.Main
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:54:9-66:20
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:56:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:55:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:58:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:59:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:57:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:60:13-65:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:61:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:62:14-73
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:62:24-70
+category#android.intent.category.HOME
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:63:14-70
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:63:24-67
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:64:17-77
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:64:27-74
+activity#com.Appic.ThirdEye.BookmarksList
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:68:9-73:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:70:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:69:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:72:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:73:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:71:13-60
+activity#com.Appic.ThirdEye.BookmarksDelete
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:75:9-80:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:77:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:76:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:79:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:80:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:78:13-62
+activity#com.Appic.ThirdEye.Browser
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:82:9-87:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:84:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:83:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:86:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:87:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:85:13-54
+activity#com.Appic.ThirdEye.BrowserPageViewer
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:89:9-94:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:91:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:90:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:93:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:94:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:92:13-64
+activity#com.Appic.ThirdEye.Applications
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:96:3-101:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:98:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:97:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:100:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:101:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:99:13-59
+activity#com.Appic.ThirdEye.VoiceRecorder
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:103:3-108:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:105:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:104:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:107:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:108:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:106:13-60
+activity#com.Appic.ThirdEye.VoiceRecorderCreate
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:110:3-115:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:112:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:111:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:114:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:115:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:113:13-66
+activity#com.Appic.ThirdEye.VoiceRecorderList
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:117:3-122:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:119:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:118:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:121:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:122:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:120:13-64
+activity#com.Appic.ThirdEye.VoiceRecorderDelete
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:124:3-129:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:126:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:125:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:128:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:129:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:127:13-66
+activity#com.Appic.ThirdEye.Alarms
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:131:9-136:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:133:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:132:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:135:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:136:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:134:13-53
+activity#com.Appic.ThirdEye.AlarmsList
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:138:9-143:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:140:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:139:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:142:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:143:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:141:13-57
+activity#com.Appic.ThirdEye.AlarmsCreate
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:145:9-150:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:147:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:146:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:149:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:150:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:148:13-59
+activity#com.Appic.ThirdEye.AlarmsDelete
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:152:9-157:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:154:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:153:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:156:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:157:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:155:13-59
+activity#com.Appic.ThirdEye.AlarmsNotifier
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:159:9-164:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:161:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:160:13-43
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:163:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:164:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:162:13-61
+activity#com.Appic.ThirdEye.Settings
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:166:9-171:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:168:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:167:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:170:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:171:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:169:13-55
+activity#com.Appic.ThirdEye.MusicPlayer
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:173:9-178:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:175:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:174:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:177:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:178:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:176:13-58
+activity#com.Appic.ThirdEye.MusicPlayerArtists
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:180:9-185:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:182:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:181:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:184:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:185:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:183:13-65
+activity#com.Appic.ThirdEye.Messages
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:187:9-192:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:189:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:188:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:191:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:192:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:190:13-55
+activity#com.Appic.ThirdEye.MessagesInbox
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:194:9-199:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:196:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:195:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:198:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:199:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:197:13-60
+activity#com.Appic.ThirdEye.MessagesSent
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:201:9-206:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:203:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:202:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:205:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:206:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:204:13-59
+activity#com.Appic.ThirdEye.MessagesCompose
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:208:9-213:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:210:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:209:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:212:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:213:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:211:13-62
+activity#com.Appic.ThirdEye.MessagesDelete
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:215:9-220:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:217:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:216:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:219:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:220:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:218:13-61
+activity#com.Appic.ThirdEye.Calls
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:222:9-227:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:224:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:223:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:226:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:227:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:225:13-52
+activity#com.Appic.ThirdEye.CallsMake
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:229:9-234:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:231:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:230:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:233:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:234:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:232:13-56
+activity#com.Appic.ThirdEye.CallsLogs
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:236:9-241:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:238:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:237:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:240:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:241:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:239:13-56
+activity#com.Appic.ThirdEye.CallsLogsDelete
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:243:9-248:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:245:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:244:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:247:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:248:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:246:13-62
+activity#com.Appic.ThirdEye.Contacts
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:250:9-255:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:252:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:251:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:254:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:255:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:253:13-55
+activity#com.Appic.ThirdEye.ContactsCreate
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:257:9-262:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:259:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:258:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:261:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:262:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:260:13-61
+activity#com.Appic.ThirdEye.ContactsDelete
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:264:9-269:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:266:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:265:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:268:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:269:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:267:13-61
+activity#com.Appic.ThirdEye.ContactsList
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:271:9-276:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:273:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:272:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:275:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:276:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:274:13-59
+activity#com.Appic.ThirdEye.InputKeyboard
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:278:9-283:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:280:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:279:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:282:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:283:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:281:13-60
+activity#com.Appic.ThirdEye.InputKeyboardTalkback
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:285:9-291:57
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:287:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:286:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:291:13-55
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:289:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:290:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:288:13-68
+activity#com.Appic.ThirdEye.InputVoice
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:293:9-298:73
+	android:label
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:295:13-56
+	android:launchMode
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:294:13-44
+	android:configChanges
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:297:13-74
+	android:theme
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:298:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:296:13-57
+service#com.Appic.ThirdEye.BlindCommunicatorService
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:300:9-101
+	android:enabled
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:300:18-40
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:300:41-99
+receiver#com.Appic.ThirdEye.AlarmsReceiver
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:302:9-306:20
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:302:19-67
+intent-filter#AR.COM.LRUSSO.BLINDCOMMUNICATOR.ALARM
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:303:13-305:29
+action#AR.COM.LRUSSO.BLINDCOMMUNICATOR.ALARM
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:304:17-79
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:304:25-77
+receiver#com.Appic.ThirdEye.SmsReceiver
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:309:9-314:20
+	android:permission
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:310:17-70
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:309:19-46
+intent-filter#android.provider.Telephony.SMS_DELIVER
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:311:13-313:29
+action#android.provider.Telephony.SMS_DELIVER
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:312:17-81
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:312:25-78
+receiver#com.Appic.ThirdEye.MmsReceiver
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:317:9-323:20
+	android:permission
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:318:13-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:317:19-46
+intent-filter#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:319:13-322:29
+action#android.provider.Telephony.WAP_PUSH_DELIVER
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:320:17-86
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:320:25-83
+data
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:321:17-76
+	android:mimeType
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:321:23-73
+activity#com.Appic.ThirdEye.ComposeSmsActivity
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:326:9-337:20
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:326:19-53
+intent-filter#android.intent.action.SEND+android.intent.action.SENDTO+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:327:13-336:29
+action#android.intent.action.SEND
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:328:17-69
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:328:25-66
+action#android.intent.action.SENDTO
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:329:17-71
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:329:25-68
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:331:17-78
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:331:27-75
+service#com.Appic.ThirdEye.HeadlessSmsSendService
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:340:9-351:19
+	android:exported
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:342:18-41
+	android:permission
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:341:18-82
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:340:18-56
+intent-filter#android.intent.action.RESPOND_VIA_MESSAGE+android.intent.category.DEFAULT
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:343:13-350:29
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:344:17-84
+	android:name
+		ADDED from C:\Users\hp\Desktop\Third-Eye\app\src\main\AndroidManifest.xml:344:25-81

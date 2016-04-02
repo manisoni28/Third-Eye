@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Third Eye</string>
+    <string name="title_activity_main">Third Eye</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="mainWelcome"> epic duwara banaye   gaye Third Eye sewa me aapka swaagat hay  . Sewa chunne ke liye upar aur neeche swipe karein  , aur select karne ke liye right or swipe karein . Yadi aapke device me physical keyboard hay , to Arrow Keys ka prayog karein. </string>
+    <string name="mainMessages">SMS</string>
+    <string name="mainMessagesNew">Naye Messages</string>
+    <string name="mainMessagesNoNew">Messages. Koi naya message nahi hay.</string>
+    <string name="mainMessagesOneNew">Messages. Ek naya message.</string>
+	<string name="mainMessagesNewFromContact">&#160; ke dwara naya message</string>
+	<string name="mainMessagesNewFromUnknown">Unknown Number dwara naya message</string>
+	<string name="mainMessagesNotAvailable">Messages. iss device me messaging ki suvidha uplabdh nahi hay.</string>
+    <string name="mainCalls">Calls</string>
+    <string name="mainCallsMissed">missed calls</string>
+    <string name="mainCallsNoMissed">Calls. Koi missed call nahi hay.</string>
+    <string name="mainCallsOneMissed">Calls. Ek missed call hay.</string>
+    <string name="mainCallsNotAvailable">Calls. iss device me calling ki suvidha uplabdh nahi hay.</string>
+    <string name="mainNotAvailable">Ye option uplabdh nahi hay.</string>
+	<string name="mainContacts">Contacts</string>
+    <string name="mainMusicPlayer">Music</string>
+    <string name="mainBrowser">Internet</string>
+    <string name="mainAlarms">Alarms</string>
+    <string name="mainAlarmsNoAlarms">Alarms. Aaj ke liye koi alarm nahi hay.</string>
+    <string name="mainAlarmsOneAlarm">Alarms. Aaj ke liye ek alarm hay.</string>
+    <string name="mainAlarmsForToday">Aaj ke liye &#160; alarms hay.</string>
+	<string name="mainVoiceRecorder">Recorder</string>
+	
+	<string name="mainApplications">Applications</string>
+    <string name="mainSettings">Settings</string>
+    <string name="mainStatus">Device status</string>
+	<string name="mainCarrierIs">, &#160; mobile sewa activated hay </string>
+	<string name="mainProfileIsNormal">, normal profile activated hay&#160;</string>
+	<string name="mainProfileIsSilent">, silent profile activated hay&#160;</string>
+	<string name="mainProfileIsVibrate">, vibrate profile activated hay&#160;</string>
+	<string name="mainNoSignal">, there is no phone signal&#160;</string>
+	<string name="mainBatteryChargedAt">Battery &#160; charged hay</string>
+    <string name="mainPercentAndTime">&#160;percent, the time is&#160;</string>
+    <string name="mainHours">&#160;hours&#160;</string>
+	<string name="mainMinutesAndDate">&#160;minutes and the date is&#160;</string>
+	<string name="mainOf">&#160;of&#160;</string>
+	<string name="mainCarrierNotAvailable">Unknown</string>
+	<string name="mainWifiOnWithNetwork">aur wifi on hay aur &#160; network pe connected hay</string>
+	<string name="mainWifiOnWithoutNetwork">aur wifi on hay par kisi network pe connected nahi hay</string>
+	<string name="mainWifiOff">aur wifi off hay.</string>
+	<string name="mainMusicPlayerPleaseTryAgain">Kripya thodi der baad koshish karein abhi media files process ho rahin</string>
+	<string name="mainNoTTSInstalledTitle">Error</string>
+	<string name="mainNoTTSInstalledMessage">TTS software uplabhdah nhi hai.\nkripya  Google TTS App (free App) download karein .</string>
+	<string name="mainNoTTSInstalledButton">Download Google TTS</string>
+	<string name="mainPressBack">App close karne ke liye back phir se dabaye.</string>
+	
+    <string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+	
+    <string name="january">January</string>
+    <string name="february">February</string>
+	<string name="march">March</string>
+	<string name="april">April</string>
+	<string name="may">May</string>
+	<string name="june">June</string>
+	<string name="july">July</string>
+	<string name="august">August</string>
+	<string name="september">September</string>
+	<string name="october">October</string>
+	<string name="november">November</string>
+	<string name="december">December</string>
+	
+	<string name="volumeMaximum">Maximum volume</string>
+	<string name="volumeHigher">Higher volume</string>
+	<string name="volumeLower">Lower volume</string>
+	<string name="deviceCharged">Device ab poori tarah charged hay</string>
+	<string name="deviceChargedStatus">, Device poori tarah charged hay,&#160;</string>
+	<string name="deviceCharging">Device charge ho raha hay</string>
+	<string name="deviceChargingStatus">, Device charge ho raha hay ,&#160;</string>
+	<string name="deviceUnplugged">Device ko unplug kiya gaya hay</string>
+	<string name="screenOn">Screen abhi on hay</string>
+	<string name="screenOff">Screen abhi off hay</string>
+	<string name="screenPortrait">Screen ki orientation abhi potrait hay</string>
+	<string name="screenLandscape">Screen ki orientation abhi Landscape hay</string>
+	<string name="wifiConnectedToNetwork">Device abhi &#160; wifi network par connected hay</string>
+	<string name="wifiDisconnectedFromNetwork">Device wifi network se disconnected hay</string>
+	
+	<string name="layoutMainMessages">SMS</string>
+	<string name="layoutMainCalls">Calls</string>
+	<string name="layoutMainContacts">Contacts</string>
+	<string name="layoutMainMusic">Music</string>
+	<string name="layoutMainBrowser">Internet</string>
+	<string name="layoutMainAlarms">Alarms</string>
+	<string name="layoutMainSettings">Settings</string>
+	<string name="layoutMainStatus">Status</string>
+	<string name="layoutMainOnResume">Ab aap main menu par hay</string>
+	
+	<string name="layoutAlarmsNotifierShutdown">Alarm band karne ke liye upar ya neeche slide kijiye</string>
+	
+	<string name="layoutAlarmsList">Alarm ki list</string>
+	<string name="layoutAlarmsCreate">Naya alarm set karein</string>
+	<string name="layoutAlarmsAlarmCreated">Alarm set ho chuka hay, ab aap alarms menu par hay</string>
+	<string name="layoutAlarmsOnResume">Ab aap alarms menu par hay</string>
+	
+	<string name="layoutAlarmsCreateMessage">- input message -</string>
+	<string name="layoutAlarmsCreateMessage2">Alarm message. Input message daalne ke liye right side slide karein.</string>
+	<string name="layoutAlarmsCreateMessage3">Alarm message:\n</string>
+	<string name="layoutAlarmsCreateMessage4">Alarm message.&#160;</string>
+	<string name="layoutAlarmsCreateCreate">Alarm Banayein</string>
+	<string name="layoutAlarmsCreateDay">Day alarm:&#160;</string>
+	<string name="layoutAlarmsCreateDay2">Day alarm.&#160;</string>
+	<string name="layoutAlarmsCreateTimeHour">Alarm hours:&#160;</string>
+	<string name="layoutAlarmsCreateTimeHour2">Alarm hours.&#160;</string>
+	<string name="layoutAlarmsCreateTimeMinute">Alarm minutes:&#160;</string>
+	<string name="layoutAlarmsCreateTimeMinute2">Alarm minutes.&#160;</string>
+	<string name="layoutAlarmsCreateHours">&#160;hours</string>
+	<string name="layoutAlarmsCreateMinutes">&#160;minutes</string>
+	<string name="layoutAlarmsCreateErrorNoMessage">Kripya ek alarm message daaliye</string>
+	<string name="layoutAlarmsCreateErrorAlarmConflict">Isi samay ke liye ek doosra alarm bhi set hay. kripya fir se try karein</string>
+	<string name="layoutAlarmsCreateOnResume">Ab aap alarm create karne ke menu par hay</string>
+	
+	<string name="layoutAlarmsListNoAlarms">Koi alarms nahi hay</string>
+	<string name="layoutAlarmsListList">Alarms</string>
+	<string name="layoutAlarmsListAlarmAlarmsCount">&#160; alarm set ho chuke hay</string>
+	<string name="layoutAlarmsListAt">&#160;at&#160;</string>
+	<string name="layoutAlarmsListForToday">&#160; aaj ke liye. Saare sunnee ke liye right side swipe karein.</string>
+	<string name="layoutAlarmsListDelete">Selected alarm delete karein</string>
+	<string name="layoutAlarmsListDeleted">Alarm delete ho gaya hay. Ab aap alarms main menu main hay</string>
+	<string name="layoutAlarmsListDeleteSelectError">Pehle alarm select kijiye</string>
+	<string name="layoutAlarmsListOnResume">Ab aap alarm list menu par hay</string>
+	
+	<string name="layoutAlarmsDeleteSelected">Delete karne ke liye alarm select ho chuka hay.&#160;</string>
+	<string name="layoutAlarmsDeleteDelete">Delete kar dein</string>
+	<string name="layoutAlarmsDeleteOnResume">Ab aap delete alarm menu par hay</string>
+	
+	<string name="layoutVoiceRecorderList">Voice Record list karein</string>
+	<string name="layoutVoiceRecorderCreate">Voice record create karein</string>
+	<string name="layoutVoiceRecorderOnResume">Ab aap voice recorder menu par hayn</string>
+	<string name="layoutVoiceRecorderOnResume2">Voice record save ho chuka hay aur aap voice record menu par hayn </string>
+	
+	<string name="layoutVoiceRecorderCreateCreate">Voice record create karein</string>
+	<string name="layoutVoiceRecorderCreateCreate2">Voice recording. Recording shuru karne ke liye right side swipe karein aur band karne ke liye firse dahine side swipe karein</string>
+	<string name="layoutVoiceRecorderCreateError">Error. Kripaya check karein ki aapke device me memory uplabdh hayn</string>
+	<string name="layoutVoiceRecorderCreateOnResume">Ab aap voice record create karne ke menu mein hayn</string>
+	
+	<string name="layoutVoiceRecorderListList">Voice records</string>
+	<string name="layoutVoiceRecorderListList2">Voice records. Records ko select karne ke liye right side swipe karein.</string>
+	<string name="layoutVoiceRecorderListPlay">Voice record play karein</string>
+	<string name="layoutVoiceRecorderListPlay2">Selected voice record play karein. Play karne ke liye right side slide karein aur band karne ke liye left side</string>
+	<string name="layoutVoiceRecorderListDelete">Voice record delete karein</string>
+	<string name="layoutVoiceRecorderListDelete2">Selected voice record delete karein</string>
+	<string name="layoutVoiceRecorderListItem">Voice record&#160;</string>
+	<string name="layoutVoiceRecorderListItemOf">&#160;of&#160;</string>
+	<string name="layoutVoiceRecorderListNoVoiceRecords">Koi voice record uplabdh nahi hay</string>
+	<string name="layoutVoiceRecorderListPleaseWait">Kripya thodi der baad parayaas kijiye</string>
+	<string name="layoutVoiceRecorderListError">Pehele ek voice record select kijiye</string>
+	<string name="layoutVoiceRecorderListOnResume">Ab aap voice record list menu par hay</string>
+	<string name="layoutVoiceRecorderListOnResume2">Voice record delete ho gaya h, ab aap voice record list menu par hayn</string>
+	
+	<string name="layoutVoiceRecorderDeleteDelete">Delete karne ke liye voice record select ho chuka hay. Voice record&#160;</string>
+	<string name="layoutVoiceRecorderDeleteDelete2">. Play karne ke left side slide karein aur stop karne ke liye left side.</string>
+	<string name="layoutVoiceRecorderDeleteToDelete">Voice record&#160;</string>
+	<string name="layoutVoiceRecorderDeleteConfirm">Confirm delete kar dein</string>
+	<string name="layoutVoiceRecorderDeleteOnResume">Ab aap delete voice record menu par hay</string>
+	
+	<string name="layoutApplicationsList">Applications</string>
+	<string name="layoutApplicationsList2">Applications. Sab application ko sunnee ke liye left ya right side slide karein.</string>
+	<string name="layoutApplicationsListPleaseWait">Kripya thodi der baad fir se koshish karein.</string>
+	<string name="layoutApplicationsLaunch">Selected application launch karein</string>
+	<string name="layoutApplicationsLaunchError">Pehele ek application select karein</string>
+	<string name="layoutApplicationsNoApps">Koi applications nahi hayn</string>
+	<string name="layoutApplicationsOnResume">Ab aap applications menu par hayn</string>
+	
+	<string name="layoutSettingsReadingSpeed">Reading speed:&#160;</string>
+	<string name="layoutSettingsReadingSpeed2">Reading speed.&#160;</string>
+	<string name="layoutSettingsScreenTimeout">Screen timeout:\n</string>
+	<string name="layoutSettingsScreenTimeout2">Screen timeout&#160;</string>
+	<string name="layoutSettingsToneNotAvailable">Not available</string>
+	<string name="layoutSettingsAlarmTone">Alarm tone:\n</string>
+	<string name="layoutSettingsAlarmTone2">Alarm tone.&#160;</string>
+	<string name="layoutSettingsAlarmToneNotAvailable">Alarm tone. Iss device me uplabdh nahi hay</string>
+	<string name="layoutSettingsNotifyTone">Notify tone:\n</string>
+	<string name="layoutSettingsNotifyTone2">Notify tone.&#160;</string>
+	<string name="layoutSettingsNotifyToneNotAvailable">Notify tone. Iss device me uplabdh nahi hay</string>
+	<string name="layoutSettingsCallTone">Call tone:\n</string>
+	<string name="layoutSettingsCallTone2">Call tone.&#160;</string>
+	<string name="layoutSettingsCallToneNotAvailable">Call tone: -</string>
+	<string name="layoutSettingsCallToneNotAvailable2">Call tone. Iss device mein uplabdh nahi hay</string>
+	<string name="layoutSettingsProfileNormal">profile: Normal</string>
+	<string name="layoutSettingsProfileNormal2">profile. Normal</string>
+	<string name="layoutSettingsProfileSilent">profile: Silent</string>
+	<string name="layoutSettingsProfileSilent2">profile. Silent</string>
+	<string name="layoutSettingsProfileVibrate">profile: Vibrate</string>
+	<string name="layoutSettingsProfileVibrate2">profile. Vibrate</string>
+	<string name="layoutSettingsWifiOn">Wifi: On</string>
+	<string name="layoutSettingsWifiOn2">Wifi On hay</string>
+	<string name="layoutSettingsWifiOn2WithoutNetwork">Wifi. Wifi on hay aur kisi bhi network se connected nahi hay</string>
+	<string name="layoutSettingsWifiOn2WithNetwork">Wifi. The Wifi on hay aur &#160;  wifi network se conected hay</string>
+	<string name="layoutSettingsWifiOff">Wifi: Off</string>
+	<string name="layoutSettingsWifiOff2">Wifi. Wifi off hay</string>
+	<string name="layoutSettingsWifiOff3">Wifi off hay</string>
+	<string name="layoutSettingsBluetoothOn">Bluetooth: On</string>
+	<string name="layoutSettingsBluetoothOn2">Bluetooth on hay</string>
+	<string name="layoutSettingsBluetoothOff">Bluetooth: Off</string>
+	<string name="layoutSettingsBluetoothOff2">Bluetooth off hay</string>
+	<string name="layoutSettingsInputMode">Input Mode:&#160;</string>
+	<string name="layoutSettingsInputMode2">Input text from&#160;</string>
+	<string name="layoutSettingsInputModeKeyboard">Keyboard</string>
+	<string name="layoutSettingsInputModeKeyboard2">the physical keyboard and touchscreen</string>
+	<string name="layoutSettingsInputModeVoice">Voice</string>
+	<string name="layoutSettingsInputModeVoice2">voice recognition. Internet ki jaroorat pad sakti hay.</string>
+	<string name="layoutSettingsInputModeKeyboardTalkback">Keyboard with Talkback</string>
+	<string name="layoutSettingsInputModeKeyboardTalkback2">standard android keyboard with Talkback. Talkback activated hona chahiye.</string>
+	<string name="layoutSettingsSystemSettings">System settings</string>
+	<string name="layoutSettingsSeconds">&#160;secs</string>
+	<string name="layoutSettingsSeconds2">&#160; seconds par set ho chuka hay</string>
+	<string name="layoutSettingsMinute">&#160;min</string>
+	<string name="layoutSettingsMinute2">&#160; minutes par set ho chuka hay</string>
+	<string name="layoutSettingsMinutes">&#160;mins</string>
+	<string name="layoutSettingsMinutes2">&#160; minutes par set ho chuka hay</string>
+	<string name="layoutSettingsOnResume">Ab aap settings menu par hay</string>
+	
+	<string name="layoutContactsList">Contacts</string>
+	<string name="layoutContactsCreate">contact create karein</string>
+	<string name="layoutContactsOnResumeCreated">Contact create ho gaya hay. ab aap contacts menu par hay</string>
+	<string name="layoutContactsOnResume">Ab aap contact menu par hay</string>
+	
+	<string name="layoutContactsCreateName">- Naam Daalye -</string>
+	<string name="layoutContactsCreateName2">Contact name. Input karne ke liye right swipe kijiye.</string>
+	<string name="layoutContactsCreateName3">Contact name.&#160;</string>
+	<string name="layoutContactsCreatePhone">- input phone number -</string>
+	<string name="layoutContactsCreatePhone2">Phone number. Input karne ke liye right swipe kijiye.</string>
+	<string name="layoutContactsCreatePhone3">Phone number.&#160;</string>
+	<string name="layoutContactsCreateCreate">Contact create karein</string>
+	<string name="layoutContactsCreateErrorComplete">ERROR. Contact banane ke liye sabhi fields me input daaliye.</string>
+	<string name="layoutContactsCreateOnResume">Ab aap create contact menu par hay</string>
+	
+	<string name="layoutContactsListContactsList">Contacts</string>
+	<string name="layoutContactsListContactsList2">Contacts. Sunnee ke liye left ya right side slide karein.</string>
+	<string name="layoutContactsListNoContacts">Koi contacts nahi hay</string>
+	<string name="layoutContactsListWithThePhoneNumber">Naam &#160; aur phone number &#160;</string>
+	<string name="layoutContactsListCall">Call</string>
+	<string name="layoutContactsListCall2">Selected contact ko call karein</string>
+	<string name="layoutContactsListSendMessage">Message send karein</string>
+	<string name="layoutContactsListSendMessage2">Selected contact ko message send karein</string>
+	<string name="layoutContactsListDelete">Contact delete karein</string>
+	<string name="layoutContactsListDelete2">Selected contact delete karein</string>
+	<string name="layoutContactsListError">Pehle ek contact select karein</string>
+	<string name="layoutContactsListPleaseWait">Kripya thodi der baad fir se koshish karein.</string>
+	<string name="layoutContactsListOnResumeContactDeleted">Contact delete ho chuka hay ab aap contact main menu par hay</string>
+	<string name="layoutContactsListOnResume">Ab aap contact list menu par hay</string>
+	<string name="layoutContactsListOnResume2">Message send ho chuka h aur aap contact list menu par hay</string>
+			
+	<string name="layoutContactsDeleteSelected">Delete karne ke liye select karein.&#160;</string>
+	<string name="layoutContactsDeleteDelete">Confirm delete kar diya jaye</string>
+	<string name="layoutContactsDeleteOnResume">Ab aap delete contact menu par hay</string>
+	
+	<string name="layoutMusicPlayerNowPlaying">Now playing</string>
+	<string name="layoutMusicPlayerNowPlaying2">Now playing</string>
+	<string name="layoutMusicPlayerNowPlaying3">&#160;song&#160;</string>
+	<string name="layoutMusicPlayerNowPlaying4">&#160;of&#160;</string>
+	<string name="layoutMusicPlayerNowPlaying5">&#160;by&#160;</string>
+	<string name="layoutMusicPlayerNowPlayingError1">Pehle ek artist aur album select karein</string>
+	<string name="layoutMusicPlayerNowPlayingError2">Abhi koi music play nahi ho rha hay</string>
+	<string name="layoutMusicPlayerPlay">Play</string>
+	<string name="layoutMusicPlayerStop">Stop</string>
+	<string name="layoutMusicPlayerPreviousTrack">P. Track</string>
+	<string name="layoutMusicPlayerPreviousTrack2">previous track</string>
+	<string name="layoutMusicPlayerNextTrack">N. track</string>
+	<string name="layoutMusicPlayerNextTrack2">Next track</string>
+	<string name="layoutMusicPlayerLowerVolume">Lower Vol.</string>
+	<string name="layoutMusicPlayerLowerVolume2">Lower volume</string>
+	<string name="layoutMusicPlayerHigherVolume">Higher Vol.</string>
+	<string name="layoutMusicPlayerHigherVolume2">Higher volume</string>
+	<string name="layoutMusicPlayerArtists">Artists</string>
+	<string name="layoutMusicPlayerAlbums">Albums</string>
+	<string name="layoutMusicPlayerUnknown">Unknown</string>
+	<string name="layoutMusicPlayerOnResume">Ab aap music player menu par hay</string>
+	
+	<string name="layoutMusicPlayerArtistsList">Artists</string>
+	<string name="layoutMusicPlayerArtistsList2">Artists. Sunnee ke liye left aur right side slide karein.</string>
+	<string name="layoutMusicPlayerArtistsNoArtists">Koi artist nahi hay.</string>
+	<string name="layoutMusicPlayerArtistsAlbumsList">Albums</string>
+	<string name="layoutMusicPlayerArtistsAlbumsList2">Albums. Sunnee ke liye left aur right side slide karein.</string>
+	<string name="layoutMusicPlayerArtistsAlbumsList3">Pehle ek artist select karein.</string>
+	<string name="layoutMusicPlayerArtisrsAlbumsNoAlbums">Koi album available nahi hay.</string>
+	<string name="layoutMusicPlayerArtistsPleaseWait">Kripya thodi der wait karein. Music player processing kar raha hay</string>
+	<string name="layoutMusicPlayerArtistsPlayAlbum">Play album</string>
+	<string name="layoutMusicPlayerArtistsPlayError">Pehle ek album select karein</string>
+	<string name="layoutMusicPlayerArtistsPlayError2">Error. Music file open nahi ho rahi hay.</string>
+	<string name="layoutMusicPlayerArtistsOnResume">Ab aap artist menu par hay</string>
+	
+	<string name="layoutBrowserSearchInGoogle">Google me search karein</string>
+	<string name="layoutBrowserListBookmarks">Bookmarks pe jayein</string>
+	<string name="layoutBrowserAWebPageItsBeenLoading">. Kripya intezaar kijiye jab tak web page load ho rha hay.</string>
+	<string name="layoutBrowserErrorPendingRequest">ERROR. Abhi ek webpage load ho raha h. thoda intezaar kijiye.</string>
+	<string name="layoutBrowserLoadingPagePleaseWait">Page load ho raha hay, intezaar kijiye</string>
+	<string name="layoutBrowserPageNotFound">Page nhi mila. Kripya internet connection check kijiye</string>
+	<string name="layoutBrowserOnResume">Ab aap web browser menu par hay</string>
+	
+	<string name="layoutBrowserPageViewerReadTitle">Page Title padhein</string>
+	<string name="layoutBrowserPageViewerReadTitle2">Web page ka title &#160; hay</string>
+	<string name="layoutBrowserPageViewerReadText">Page ka text padhein</string>
+	<string name="layoutBrowserPageViewerPageLinks">Page ke link padhein</string>
+	<string name="layoutBrowserPageViewerPageLinks2">Web Page Links. Links ko sunnee ke liye left aur right side swipe karein.</string>
+	<string name="layoutBrowserPageViewerPageLinks3">Link&#160;</string>
+	<string name="layoutBrowserPageViewerPageLinks3Of">&#160;of&#160;</string>
+	<string name="layoutBrowserPageViewerPageLinks4">Current web page me koi links nahi hay.</string>
+	<string name="layoutBrowserPageViewerPageLinkSelectError">Pehele ek link select karein.</string>
+	<string name="layoutBrowserPageViewerGoToLink">Selected link par jayein</string>
+	<string name="layoutBrowserPageViewerAddToBookmarks">Current page ko bookmarks main add karein</string>
+	<string name="layoutBrowserPageViewerAddToBookmarksAdded">Bookmark add ho gaya hay</string>
+	<string name="layoutBrowserPageViewerAddToBookmarksRepeated">Bookmark pehle se uplabdh hay</string>
+	<string name="layoutBrowserPageViewerOnResume">Ab aap browser ke webpage menu pe hayn</string>
+	
+	<string name="layoutBookmarksListList">Bookmarks List</string>
+	<string name="layoutBookmarksListList2">Bookmarks List. Bookmarks sunanae ke liye left ya right side swipe karein.</string>
+	<string name="layoutBookmarksListList3">Koi bookmarks nahi hay</string>
+	<string name="layoutBookmarksListGoToLink">Selected bookmark pe jayein</string>
+	<string name="layoutBookmarksListDelete">Selected bookmark delete karein</string>
+	<string name="layoutBookmarksListDeleted">Bookmark delete ho gaya h ab aap bookmark list menu par hayn</string>
+	<string name="layoutBookmarksListSelectError">Pehle ek bookmark select karein</string>
+	<string name="layoutBookmarksListOnResume">Ab aap bookmark list menu par hay</string>
+	
+	<string name="layoutBookmarksDeleteToDelete">Delete karne ke liye bookmark select ho gaya hay.&#160;</string>
+	<string name="layoutBookmarksDeleteDelete">Confirm delete kar diya jaye</string>
+	<string name="layoutBookmarksDeleteOnResume">Ab aap bookmark delete menu par hayn</string>
+	
+	<string name="layoutCallsMissedCallsList">Call logs</string>
+	<string name="layoutCallsDeleteCallLogs">Delete logs</string>
+	<string name="layoutCallsDeleteCallLogs2">Sare call logs delete karein</string>
+	<string name="layoutCallsMakeCall">Call Karein</string>
+	<string name="layoutCallsOnResume">Ab aap calls menu par hay</string>
+	<string name="layoutCallsOnResume2">Saare call logs delete ho chuke hayn. Ab aap calls menu par hayn</string>
+		
+	<string name="layoutCallsMakeCallPhone">- phone number input karein -</string>
+	<string name="layoutCallsMakeCallPhone2">Phone number. Input karne ke liye right side slide karein.</string>
+	<string name="layoutCallsMakeCallPhone3">Phone number.&#160;</string>
+	<string name="layoutCallsMakeCallCall">Call</string>
+	<string name="layoutCallsMakeCallCallError">Pehle ek number input karein</string>
+	<string name="layoutCallsMakeCallOnResume">Ab aap call karne ke menu par hayn</string>
+	
+	<string name="layoutCallsLogsLogs">Call logs</string>
+	<string name="layoutCallsLogsLogs2">Call logs. Sunnee ke liye left aur right or swipe karein.</string>
+	<string name="layoutCallsLogsAddToNewContact">Naya Contact add karein</string>
+	<string name="layoutCallsLogsCall">Call</string>
+	<string name="layoutCallsLogsCall2">Selected number par call karein</string>
+	<string name="layoutCallsLogsSendMessage">Message send karein</string>
+	<string name="layoutCallsLogsSendMessage2">Selected contact ko message send karein</string>
+	<string name="layoutCallsLogsNoLogs">Koi call logs nahi hay</string>
+	<string name="layoutCallsLogsOutgoingCall">Outgoing call</string>
+	<string name="layoutCallsLogsIncomingCall">Incoming call</string>
+	<string name="layoutCallsLogsMissedCall">Missed call</string>
+	<string name="layoutCallsLogsLogItem">Log&#160;</string>
+	<string name="layoutCallsLogsOfNumber">&#160;of&#160;</string>
+	<string name="layoutCallsLogsAt">&#160;at&#160;</string>
+	<string name="layoutCallsLogsHours">&#160;hours&#160;</string>
+	<string name="layoutCallsLogsMinutes">&#160;minutes&#160;</string>
+	<string name="layoutCallsLogsSeconds">&#160;seconds.</string>
+	<string name="layoutCallsLogsCallTo">&#160;to&#160;</string>
+	<string name="layoutCallsLogsCallFrom">&#160;from&#160;</string>
+	<string name="layoutCallsLogsError">Pehle ek log select karein </string>
+	<string name="layoutCallsLogsPleaseTryAgain">Kripya thodi der baad try karein jab call logs process ho jayein.</string>
+	<string name="layoutCallsLogsOnResume">Ab aap call logs menu par hay</string>
+	<string name="layoutCallsLogsOnResume2">Message send ho gaya hay ab app call logs menu par hay</string>
+		
+	<string name="layoutCallsLogsDelete">Delete call logs. Confirm karne ke liye right or slide karein.</string>
+	<string name="layoutCallsLogsDeleteOnResume">Ab aap delete call logs menu par hay</string>
+	
+	<string name="layoutMessagesInbox">Inbox</string>
+	<string name="layoutMessagesInboxNew">naye messages</string>
+	<string name="layoutMessagesInboxNoNew">Inbox. Koi new messages nahi hay</string>
+	<string name="layoutMessagesInboxOneNew">Inbox.  naya  message hay</string>
+	<string name="layoutMessagesSent">Sent</string>
+	<string name="layoutMessagesMessageLogs">Message logs</string>
+	<string name="layoutMessagesMessageLogsDelete">Delete logs</string>
+	<string name="layoutMessagesMessageLogsDelete2">Sare message logs delete karein</string>
+	<string name="layoutMessagesNew">Compose</string>
+	<string name="layoutMessagesNew2">naya Message likhein</string>
+	<string name="layoutMessagesOnResume">Ab aap messages menu par hay</string>
+	<string name="layoutMessagesOnResume2">Message send ho gaya hay ab app call logs menu par hay</string>
+			
+	<string name="layoutMessagesDeleteNameFrom">Message to delete from&#160;</string>
+	<string name="layoutMessagesDeleteNameTo">Message to delete to&#160;</string>
+	<string name="layoutMessagesDeleteDelete">delete confirm karein</string>
+	<string name="layoutMessagesDeleteOnResume">ab aap  delete message menu par hay</string>
+	
+	<string name="layoutMessagesSentSent">Sent</string>
+	<string name="layoutMessagesSentSent2">Sent messages. Message sunnee ke liye right aur left or  swipe karein.</string>
+	<string name="layoutMessagesSentDelete"> message delete karein.</string>
+	<string name="layoutMessagesSentMessageItem">Message&#160;</string>
+	<string name="layoutMessagesSentMessageOf">&#160;of&#160;</string>
+	<string name="layoutMessagesSentMessageSent">Sent to&#160;</string>
+	<string name="layoutMessagesSentMessageMessageBody">The message says,&#160;</string>
+	<string name="layoutMessagesSentTryAgain">kripya thodi der baad koshish karein jb saare sent messages process ho jae.</string>
+	<string name="layoutMessagesSentNoMessages">koi naya message nhi hay.</string>
+	<string name="layoutMessagesSentError">Pehle ek message select karein.</string>
+	<string name="layoutMessagesSentOnResume">Ab aap  sent messages menu par hay.</string>
+	<string name="layoutMessagesSentOnResume2"> message  delete ho gya hay  aur ab aap sent messages menu par hay.</string>
+	
+	<string name="layoutMessagesInboxInbox">Inbox</string>
+	<string name="layoutMessagesInboxInbox2">Inbox. message sunnee ke liye right aur left or  swipe karein.</string>
+	<string name="layoutMessagesInboxReply">naya message likhein</string>
+	<string name="layoutMessagesInboxDelete"> message delete karein.</string>
+	<string name="layoutMessagesInboxAddToNewContact">naya contact add karein.</string>
+	<string name="layoutMessagesInboxMessageReceived">Received from&#160;</string>
+	<string name="layoutMessagesInboxMessageOn">&#160;on&#160;</string>
+	<string name="layoutMessagesInboxMessageItem">Message&#160;</string>
+	<string name="layoutMessagesInboxMessageOf">&#160;of&#160;</string>
+	<string name="layoutMessagesInboxMessageAt">&#160;at&#160;</string>
+	<string name="layoutMessagesInboxMessageHours">&#160;hours&#160;</string>
+	<string name="layoutMessagesInboxMessageMinutes">&#160;minutes&#160;</string>
+	<string name="layoutMessagesInboxMessageSeconds">&#160;seconds.&#160;</string>
+	<string name="layoutMessagesInboxMessageMessageBody">The message says,&#160;</string>
+	<string name="layoutMessagesInboxTryAgain">kripya thodi der baad koshish karein jb saare inbox  messages process ho jae.</string>
+	<string name="layoutMessagesInboxError">pehle ek message select karein.</string>
+	<string name="layoutMessagesInboxNoMessages">koi naye message nhi hay.</string>
+	<string name="layoutMessagesInboxOnResume">Ab aap inbox messages menu par hay.</string>
+	<string name="layoutMessagesInboxOnResume2">message bhej dia gya hay aur ab aap  inbox messages menu par hay.</string>
+	<string name="layoutMessagesInboxOnResume3"> message delete ho gaya hay aur ab aap inbox messages menu par hay</string>
+				
+	<string name="layoutMessagesComposeAddressee">Addressee,Message receive karne wale ka naam.</string>
+	<string name="layoutMessagesComposeAddressee2">Addressee. Slide right or left to hear each contact.</string>
+	<string name="layoutMessagesComposeAddressee3">Addressee.&#160;</string>
+	<string name="layoutMessagesComposeMessage">Message</string>
+	<string name="layoutMessagesComposeMessage2">Message. message likhne ke liye right or slide karein.</string>
+	<string name="layoutMessagesComposeMessage3">Message.&#160;</string>
+	<string name="layoutMessagesComposeSend">Send message</string>
+	<string name="layoutMessagesComposeSending"> message send ho rha, kripya pratiksha karein...</string>
+	<string name="layoutMessagesComposeSendingError">message send ho rha,kripya pratiksha karein...</string>
+	<string name="layoutMessagesComposeSendingError2">message send nhiho paya hay , kripya carrier status check karein aur thodi der baad try karein.</string>
+	<string name="layoutMessagesComposeErrorComplete">galti. message bhejne ke liye sari fields bharein.</string>
+	<string name="layoutMessagesComposeOnResume">ab aap compose message field par hay.</string>
+	
+	<string name="layoutInputKeysOnResume">ab aap input text mode par hay.  ek character ya key ko select karne ke liye upar ya neeche slide karein, character ya key ko confirm karne ke liye right or swipe karein aur  agle character par jayein ya slide last character delete karne ke liye right or slide karein.</string>
+	<string name="layoutInputKeysTips">Input text mode\n\n* ek character ko select karne ke liye upar ya neeche slide karein\n\n* character ya key  ko confirm karne ke liye right or swipe karein aur  agle character par jayein\n\n* slide last character delete karne ke liye right or slide karein\n\n*</string>
+	<string name="layoutInputKeysKeyEnter">[ENTER]</string>
+	<string name="layoutInputKeysKeyEnter2">ENTER</string>
+	<string name="layoutInputKeysKeyRead">[READ]</string>
+	<string name="layoutInputKeysKeyReadText">TEXT read kare</string>
+	<string name="layoutInputKeysKeyReadNumber">NUMBER read kare</string>
+	<string name="layoutInputKeysKeySpace">SPACE</string>
+	<string name="layoutInputKeysNothingToRead">Padhane ke liye kuchh uplabdh nahi hay</string>
+	<string name="layoutInputKeysEmptyField">Text Field ab khali hay</string>
+	<string name="layoutInputKeysEntered">&#160; entered</string>
+		
+	<string name="layoutInputVoiceOnResume">Ab aap voice recognition menu dwara input mode me hay </string>
+	<string name="layoutInputVoiceStartRecognition">Voice recognition shuru karein </string>
+	<string name="layoutInputVoiceStartRecognition2">Voice recognition. right side swipe karein aur boliye </string>
+	<string name="layoutInputVoicePossibleResult">Result&#160;</string>
+	<string name="layoutInputVoicePossibleResults">Results (</string>
+	<string name="layoutInputVoicePossibleResults2">Sambhav Results &#160;</string>
+	<string name="layoutInputVoicePossibleResults3">. Result Sunnee ke liye right Side swipe karein</string>
+	<string name="layoutInputVoiceEnterSelectedResult">Is result ko choose karein</string>
+	<string name="layoutInputVoiceNoResultToSelect">Pehle Result select kijiye</string>
+	<string name="layoutInputVoiceNoRecognition">Koi results uplabdh nhi hue. kripya internet enable kijiye agar aapke device pay offline voice recognition maujood nahi hay</string>
+	<string name="layoutInputVoiceSystemError">System me paroblem ke kaaran voice recognition kaam nhi kar rha hay.</string>
+	<string name="layoutInputVoiceCancelAndGoBack">Cancel karein aur pichhle menu pe wapis jayein</string>
+
+	<string name="layoutInputKeyboardTalkbackOnResume">Ab aap ka sadharan android keyboard khul chuka hay. Agar aapke pass talkback service enabled hay to aap iss textbox pe jaroori message type kijiye. Cancel karne ke liye back button dabayein. Apna message likhne ke baad Enter button dabayein.</string>
+		
+	<string name="callFrom">&#160; dwara call aa rahi hay</string>
+	<string name="callFromUnknown">Unknown number dwara call aa rahi hay</string>
+	<string name="callingTo">&#160; pay call ki jaa rahi h </string>
+	<string name="callingToUnknown">Unknown Number pay call ki jaa rahi hay</string>
+	<string name="callEnded">Call samapat ho gayi hay</string>
+					
+	<string name="backToPreviousMenu">previous menu pay wapis jayein</string>
+	<string name="backToMainMenu">Main Menu pay wapis jayein</string>
+	
+	<string-array name="keysAll">
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>G</item>
+		<item>H</item>
+		<item>I</item>
+		<item>J</item>
+		<item>K</item>
+		<item>L</item>
+		<item>M</item>
+		<item>N</item>
+		<item>O</item>
+		<item>P</item>
+		<item>Q</item>
+		<item>R</item>
+		<item>S</item>
+		<item>T</item>
+		<item>U</item>
+		<item>V</item>
+		<item>W</item>
+		<item>X</item>
+		<item>Y</item>
+		<item>Z</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>.</item>
+		<item>,</item>
+		<item>:</item>
+		<item>;</item>
+		<item>!</item>
+		<item>\?</item>
+		<item>+</item>
+		<item>-</item>
+		<item>*</item>
+		<item>#</item>
+		<item>%</item>
+		<item>&amp;</item>
+		<item>$</item>
+		<item>/</item>
+		<item>"\\"</item>
+		<item>(</item>
+		<item>)</item>
+		<item>{</item>
+		<item>}</item>
+		<item>\"</item>
+		<item>\@</item>
+		<item>[READ]</item>
+		<item>[ENTER]</item>
+		<item>_</item>
+	</string-array>
+	
+	<string-array name="keysOnlyNumbers">
+		<item>#</item>
+	    <item>*</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>[READ]</item>
+		<item>[ENTER]</item>
+	</string-array>
+	
+	<integer-array name="screenTimeOutSeconds">
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>300</item>
+		<item>600</item>
+	</integer-array>
+
+	<string-array name="timeHourValues">
+		<item>00</item>
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+		<item>05</item>
+		<item>06</item>
+		<item>07</item>
+		<item>08</item>
+		<item>09</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+	</string-array>
+
+	<string-array name="timeMinutesValues">
+		<item>00</item>
+		<item>05</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>25</item>
+		<item>30</item>
+		<item>35</item>
+		<item>40</item>
+		<item>45</item>
+		<item>50</item>
+		<item>55</item>
+	</string-array>
+</resources>
