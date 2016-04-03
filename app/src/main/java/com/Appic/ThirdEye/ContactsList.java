@@ -4,7 +4,9 @@ import android.app.*;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
-
+/**
+ * Created By Mani
+ */
 public class ContactsList extends Activity
 	{
 	private TextView contacts;

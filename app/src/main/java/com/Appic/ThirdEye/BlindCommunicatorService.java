@@ -21,7 +21,9 @@ import com.android.internal.telephony.*;
 
 import java.lang.reflect.*;
 import java.util.*;
-
+/**
+ * Created By Mani
+ */
 public class BlindCommunicatorService extends Service implements TextToSpeech.OnInitListener
 	{
 	private static boolean started = false;

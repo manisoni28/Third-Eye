@@ -4,7 +4,9 @@ import android.content.*;
 import android.net.Uri;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
-
+/**
+ * Created By Akshat
+ */
 public class SmsReceiver extends BroadcastReceiver
 	{
 

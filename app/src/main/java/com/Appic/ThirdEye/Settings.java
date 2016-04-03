@@ -8,7 +8,9 @@ import android.net.wifi.*;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
-
+/**
+ * Created By Mani
+ */
 public class Settings extends Activity
 	{
 	private TextView readingspeed;

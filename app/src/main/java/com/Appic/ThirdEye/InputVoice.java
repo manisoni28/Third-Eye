@@ -13,7 +13,9 @@ import android.widget.*;
 import java.util.*;
 
 import com.Appic.ThirdEye.R;
-
+/**
+ * Created By Prakhar
+ */
 public class InputVoice extends Activity
 	{
     private SpeechRecognizer sr;

@@ -7,7 +7,9 @@ import android.provider.*;
 import android.view.*;
 import android.widget.*;
 import java.util.*;
-
+/**
+ * Created By Mani
+ */
 public class ContactsCreate extends Activity
 	{
 	private TextView name;

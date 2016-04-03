@@ -12,6 +12,9 @@ import android.view.*;
 import android.widget.*;
 import java.util.*;
 
+/**
+ * Created By Mani
+ */
 public class Main extends Activity implements TextToSpeech.OnInitListener
 	{
 	private static boolean speakOnResume = false;

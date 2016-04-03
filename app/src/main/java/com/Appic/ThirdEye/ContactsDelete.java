@@ -9,7 +9,9 @@ import android.provider.*;
 import android.view.*;
 import android.widget.*;
 import android.provider.ContactsContract.PhoneLookup;
-
+/**
+ * Created By Mani
+ */
 public class ContactsDelete extends Activity
 	{
 	private TextView name;

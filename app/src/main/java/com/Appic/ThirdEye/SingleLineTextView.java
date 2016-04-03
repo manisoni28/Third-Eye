@@ -5,7 +5,9 @@ import android.content.*;
 import android.util.*;
 import android.text.TextUtils.*;
 import android.text.*;
-
+/**
+ * Created By Mani
+ */
 public class SingleLineTextView extends TextView
 	{
 	public SingleLineTextView(Context context, AttributeSet attrs, int defStyle)

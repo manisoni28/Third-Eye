@@ -8,7 +8,9 @@ import android.view.*;
 import android.widget.TextView;
 import android.app.Activity;
 import android.content.ContentValues;
-
+/**
+ * Created By Akshat
+ */
 public class MessagesInbox extends Activity
 	{
 	public static TextView inbox;

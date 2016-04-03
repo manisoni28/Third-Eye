@@ -3,6 +3,9 @@ package com.Appic.ThirdEye;
 import android.app.Activity;
 import android.os.Bundle;
 
+/**
+ * Created By Mani
+ */
 public class Splash extends Activity {
 
     @Override

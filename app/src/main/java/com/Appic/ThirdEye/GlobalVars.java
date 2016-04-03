@@ -26,7 +26,9 @@ import java.text.*;
 import java.util.*;
 
 import android.bluetooth.*;
-
+/**
+ * Created By Mani
+ */
 public class GlobalVars extends Application
 	{
 	//SYSTEM VARIABLES FOR GENERAL PURPOSES

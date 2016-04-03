@@ -5,7 +5,9 @@ import java.util.Calendar;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.*;
-
+/**
+ * Created By Akshat
+ */
 public class MessagesCheckThread extends AsyncTask<Integer, String, Boolean>
 	{
 	int SMSType = -1;

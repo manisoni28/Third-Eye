@@ -1,5 +1,7 @@
 package com.Appic.ThirdEye;
-
+/**
+ * Created By Mani
+ */
 public class SmsConstant
 	{
     public static final String SMS_URI = "content://sms/";

@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.*;
 import android.widget.TextView;
 import android.app.Activity;
-
+/**
+ * Created By Akshat
+ */
 public class MessagesDelete extends Activity
 	{
 	private TextView todelete;

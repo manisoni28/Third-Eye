@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.*;
 import android.widget.TextView;
 import android.app.Activity;
-
+/**
+ * Created By Akshat
+ */
 public class MessagesSent extends Activity
 	{
 	private TextView sent;

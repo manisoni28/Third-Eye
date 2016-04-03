@@ -8,7 +8,9 @@ import java.util.*;
 import com.Appic.ThirdEye.R;
 
 import android.app.Activity;
-
+/**
+ * Created By Prakhar
+ */
 public class InputKeyboard extends Activity
 	{
 	private float x1,x2,y1;

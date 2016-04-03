@@ -4,7 +4,9 @@ import android.database.*;
 import android.os.*;
 import android.provider.*;
 import java.util.*;
-
+/**
+ * Created By Mani
+ */
 public class ContactsListThread extends AsyncTask<String, String, Boolean>
 	{
 	@Override protected void onPreExecute()
