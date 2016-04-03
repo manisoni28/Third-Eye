@@ -18,11 +18,7 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 	public static TextView messages;
 	public static TextView calls;
 	private TextView contacts;
-	//private TextView music;
 	private TextView internet;
-	//public static TextView alarms;
-	//private TextView voicerecorder;
-	//private TextView applications;
 	private TextView settings;
 	private TextView status;
 	private boolean okToFinish = false;
@@ -36,15 +32,11 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		messages = (TextView) findViewById(R.id.messages);
 		calls = (TextView) findViewById(R.id.calls);
 		contacts = (TextView) findViewById(R.id.contacts);
-		//music = (TextView) findViewById(R.id.music);
 		internet = (TextView) findViewById(R.id.browser);
-		//alarms = (TextView) findViewById(R.id.alarms);
-		//voicerecorder = (TextView) findViewById(R.id.voicerecorder);
-		//applications = (TextView) findViewById(R.id.apps);
 		settings = (TextView) findViewById(R.id.settings);
 		status = (TextView) findViewById(R.id.status);
 		GlobalVars.activityItemLocation=0;
-		GlobalVars.activityItemLimit=6;
+		GlobalVars.activityItemLimit=10;
 		
 		GlobalVars.contextApp = getApplicationContext();
 		
@@ -60,10 +52,7 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		AudioManager audioManager = (AudioManager)getSystemService(AUDIO_SERVICE);
 		audioManager.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
 
-		//GlobalVars.alarmAlarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-		//GlobalVars.openAndLoadAlarmFile();
-		//GlobalVars.setText(alarms,false, getResources().getString(R.string.mainAlarms) + " (" + GlobalVars.getPendingAlarmsForTodayCount() + ")");
-		
+
 		//LIST EVERY MUSIC FILE WITH THE MEDIA INFORMATION TO USE IT WITH THE MUSIC PLAYER
 		//new MusicPlayerThreadRefreshDatabase().execute("");
 		
@@ -257,15 +246,11 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = Main.class;
 		GlobalVars.activityItemLocation=0;
-		GlobalVars.activityItemLimit=6;
+		GlobalVars.activityItemLimit=10;
 		GlobalVars.selectTextView(messages,false);
 		GlobalVars.selectTextView(calls,false);
 		GlobalVars.selectTextView(contacts,false);
-		//GlobalVars.selectTextView(music,false);
 		GlobalVars.selectTextView(internet,false);
-		//GlobalVars.selectTextView(alarms,false);
-		//GlobalVars.selectTextView(voicerecorder,false);
-		//GlobalVars.selectTextView(applications,false);
 		GlobalVars.selectTextView(settings,false);
 		GlobalVars.selectTextView(status,false);
 		
@@ -447,42 +432,14 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 			GlobalVars.selectTextView(internet,false);
 			GlobalVars.talk(getResources().getString(R.string.mainContacts));
 			break;
-			
-			/*case 4: //MUSIC
-			GlobalVars.selectTextView(music,true);
-			GlobalVars.selectTextView(contacts,false);
-			GlobalVars.selectTextView(internet,false);
-			GlobalVars.talk(getResources().getString(R.string.mainMusicPlayer));
-			break;
-		*/	
+
 			case 4: //INTERNET
 			GlobalVars.selectTextView(internet,true);
 			GlobalVars.selectTextView(contacts,false);
 			GlobalVars.selectTextView(settings,false);
 			GlobalVars.talk(getResources().getString(R.string.mainBrowser));
 			break;
-			
-		/*	case 6: //ALARMS
-			GlobalVars.selectTextView(alarms,true);
-			GlobalVars.selectTextView(internet,false);
-			GlobalVars.selectTextView(voicerecorder,false);
-			GlobalVars.talk(GlobalVars.getPendingAlarmsForTodayCountText());
-			break;
-			
-			case 7: //VOICE RECORDER
-			GlobalVars.selectTextView(voicerecorder,true);
-			GlobalVars.selectTextView(alarms,false);
-			GlobalVars.selectTextView(applications,false);
-			GlobalVars.talk(getResources().getString(R.string.mainVoiceRecorder));
-			break;
-			
-			case 8: //APPLICATIONS
-			GlobalVars.selectTextView(applications,true);
-			GlobalVars.selectTextView(voicerecorder,false);
-			GlobalVars.selectTextView(settings,false);
-			GlobalVars.talk(getResources().getString(R.string.mainApplications));
-			break;
-			*/
+
 			case 5: //SETTINGS
 			GlobalVars.selectTextView(settings,true);
 			GlobalVars.selectTextView(internet,false);
@@ -528,34 +485,11 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 			case 3: //CONTACTS
 			GlobalVars.startActivity(Contacts.class);
 			break;
-			
-			/*case 4: //MUSIC
-			if (GlobalVars.musicPlayerDatabaseReady==true)
-				{
-				GlobalVars.startActivity(MusicPlayer.class);
-				}
-				else
-				{
-				GlobalVars.talk(getResources().getString(R.string.mainMusicPlayerPleaseTryAgain));
-				}
-			break;
-			*/
+
 			case 4: //INTERNET
 			GlobalVars.startActivity(Browser.class);
 			break;
-			/*
-			case 6: //ALARMS
-			GlobalVars.startActivity(Alarms.class);
-			break;
-			
-			case 7: //VOICE RECORDER
-			GlobalVars.startActivity(VoiceRecorder.class);
-			break;
-			
-			case 8: //APPLICATIONS
-			GlobalVars.startActivity(Applications.class);
-			break;
-			*/
+
 			case 5: //SETTINGS
 			GlobalVars.startActivity(Settings.class);
 			break;
