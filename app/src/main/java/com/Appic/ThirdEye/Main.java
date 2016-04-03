@@ -36,7 +36,7 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		settings = (TextView) findViewById(R.id.settings);
 		status = (TextView) findViewById(R.id.status);
 		GlobalVars.activityItemLocation=0;
-		GlobalVars.activityItemLimit=10;
+		GlobalVars.activityItemLimit=6;
 		
 		GlobalVars.contextApp = getApplicationContext();
 		
@@ -52,9 +52,6 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		AudioManager audioManager = (AudioManager)getSystemService(AUDIO_SERVICE);
 		audioManager.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
 
-
-		//LIST EVERY MUSIC FILE WITH THE MEDIA INFORMATION TO USE IT WITH THE MUSIC PLAYER
-		//new MusicPlayerThreadRefreshDatabase().execute("");
 		
 		//READ WEB BOOKMARKS DATABASE
 		GlobalVars.readBookmarksDatabase();
@@ -246,7 +243,7 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = Main.class;
 		GlobalVars.activityItemLocation=0;
-		GlobalVars.activityItemLimit=10;
+		GlobalVars.activityItemLimit=6;
 		GlobalVars.selectTextView(messages,false);
 		GlobalVars.selectTextView(calls,false);
 		GlobalVars.selectTextView(contacts,false);
