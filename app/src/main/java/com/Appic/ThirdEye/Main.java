@@ -45,9 +45,6 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 		GlobalVars.tts = new TextToSpeech(this,this);
 		GlobalVars.tts.setPitch((float) 1.0);
 		
-		//SETS THE ALARM VIBRATOR VARIABLE
-		GlobalVars.alarmVibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-		
 		//SETS PROFILE TO NORMAL
 		AudioManager audioManager = (AudioManager)getSystemService(AUDIO_SERVICE);
 		audioManager.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
@@ -184,18 +181,6 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 			GlobalVars.settingsScreenTimeOutValues.add(String.valueOf(arr[i]));
 			}
 
-		//GETS TIME VALUES FOR ALARMS
-		String[] arr2 = getResources().getStringArray(R.array.timeHourValues);
-		for(int i=0;i<arr2.length;i++)
-			{
-			GlobalVars.alarmTimeHoursValues.add(String.valueOf(arr2[i]));
-			}
-		String[] arr3 = getResources().getStringArray(R.array.timeMinutesValues);
-		for(int i=0;i<arr3.length;i++)
-			{
-			GlobalVars.alarmTimeMinutesValues.add(String.valueOf(arr3[i]));
-			}
-			
 		//GETS SCREEN TIMEOUT VALUE
 		String screenTimeOutString = GlobalVars.readFile("screentimeout.cfg");
 		if (screenTimeOutString=="")
@@ -240,7 +225,6 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = Main.class;
 		GlobalVars.activityItemLocation=0;
 		GlobalVars.activityItemLimit=6;
@@ -285,7 +269,7 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 					{
 					try
    						{
-						GlobalVars.musicPlayer.setVolume(1f,1f);
+
    						}
 						catch(NullPointerException e)
 						{
@@ -344,20 +328,7 @@ public class Main extends Activity implements TextToSpeech.OnInitListener
 			catch(Exception e)
 			{
 			}
-		try
-			{
-			if (GlobalVars.musicPlayer!=null)
-				{
-				GlobalVars.musicPlayer.stop();
-				GlobalVars.musicPlayer.reset();
-				GlobalVars.musicPlayer.release();
-				GlobalVars.musicPlayer = null;
-				}
-			}
-			catch(Exception e)
-			{
-			}
-		GlobalVars.musicPlayerPlayingSongIndex = -1;
+
 		try
 			{
 			GlobalVars.stopService(BlindCommunicatorService.class);
