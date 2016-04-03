@@ -30,7 +30,6 @@ public class CallsMake extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		if (GlobalVars.inputModeResult!=null)
 			{
 			phoneValue = GlobalVars.inputModeResult;
