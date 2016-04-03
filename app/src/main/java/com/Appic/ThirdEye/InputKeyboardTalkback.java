@@ -74,7 +74,6 @@ public class InputKeyboardTalkback extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = InputKeyboardTalkback.class;
 		GlobalVars.talk(getResources().getString(R.string.layoutInputKeyboardTalkbackOnResume));
 		}

@@ -42,7 +42,6 @@ public class MessagesCompose extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		if (GlobalVars.inputModeResult!=null)
 			{
 			messageBody = GlobalVars.inputModeResult;

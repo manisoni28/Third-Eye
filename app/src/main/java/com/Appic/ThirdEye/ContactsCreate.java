@@ -40,7 +40,6 @@ public class ContactsCreate extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		if (GlobalVars.inputModeResult!=null)
 			{
 			if (location==LOCATION_NAME)

@@ -28,7 +28,6 @@ public class Contacts extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = Contacts.class;
 		GlobalVars.activityItemLocation=0;
 		GlobalVars.activityItemLimit=3;

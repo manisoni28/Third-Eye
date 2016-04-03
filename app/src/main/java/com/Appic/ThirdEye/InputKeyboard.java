@@ -41,7 +41,6 @@ public class InputKeyboard extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = InputKeyboard.class;
 		GlobalVars.talk(getResources().getString(R.string.layoutInputKeysOnResume));
 		}

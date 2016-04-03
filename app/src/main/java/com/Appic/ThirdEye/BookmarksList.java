@@ -32,7 +32,6 @@ public class BookmarksList extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = BookmarksList.class;
 		GlobalVars.activityItemLocation=0;
 		GlobalVars.activityItemLimit=4;

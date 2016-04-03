@@ -25,7 +25,6 @@ public class CallsLogsDelete extends Activity
 	@Override public void onResume()
 		{
 		super.onResume();
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
 		GlobalVars.lastActivity = CallsLogsDelete.class;
 		GlobalVars.activityItemLocation=0;
 		GlobalVars.activityItemLimit=2;
