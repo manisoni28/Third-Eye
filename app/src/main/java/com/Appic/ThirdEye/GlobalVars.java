@@ -69,14 +69,7 @@ public class GlobalVars extends Application
 	public static boolean 					callLogsReady = false;
 	public static List<String>				callLogsDataBase = new ArrayList<String>();
 	public static boolean 					callLogsDeleted = false;
-	
-	//VARIABLES FOR VOICE RECORDER
-	public static boolean 					voiceRecorderAudioWasSaved = false;
-	public static boolean 					voiceRecorderAudioWasDeleted = false;
-	public static int 						voiceRecorderToDelete = -1;
-	public static boolean 					voiceRecorderListReady = false;
-	public static List<String> 				voiceRecorderListFiles = new ArrayList<String>();
-	
+
 	//VARIABLES FOR SETTINGS
 	public static List<String>				settingsToneAlarmTitle = new ArrayList<String>();
 	public static List<String> 				settingsToneAlarmUri = new ArrayList<String>();
@@ -92,21 +85,7 @@ public class GlobalVars extends Application
 	public static int 						settingsTTSReadingSpeedLimit = 5;
 	public static int 						settingsScreenTimeOut = -1;
 	public static List<String> 				settingsScreenTimeOutValues = new ArrayList<String>();
-	
-	//VARIABLES FOR ALARMS
-	public static List<String> 				alarmTimeHoursValues = new ArrayList<String>();
-	public static List<String> 				alarmTimeMinutesValues = new ArrayList<String>();
-	public static boolean 					alarmWasCreated = false;
-	public static boolean 					alarmWasDeleted = false;
-	public static String 					alarmMessage = "";
-	public static String 					alarmDay = "";
-	public static String 					alarmHours = "";
-	public static String 					alarmMinutes = "";
-	public static int 						alarmToDeleteIndex = -1;
-	public static List<String> 				alarmList = new ArrayList<String>();
-	public static AlarmManager 				alarmAlarmManager;
-	public static ArrayList<PendingIntent> 	alarmPendingIntentArray = new ArrayList<PendingIntent>();
-	public static Vibrator 					alarmVibrator;
+
 	
 	//VARIABLES FOR WEB BROWSER
 	public static boolean 					bookmarkWasDeleted = false;
@@ -117,18 +96,6 @@ public class GlobalVars extends Application
 	public static String 					browserWebText = null;
 	public static List<String> 				browserWebLinks = new ArrayList<String>();
 	public static List<String> 				browserBookmarks = new ArrayList<String>();
-	//VARIABLES FOR MEDIA PLAYER
-	public static MediaPlayer 				musicPlayer = null;
-	public static boolean 					musicPlayerDatabaseReady = false;
-	public static boolean 					musicPlayerAlbumsReady = false;
-	public static int 						musicPlayerPlayingSongIndex = -1;
-	public static String 					musicPlayerCurrentArtist = "";
-	public static String 					musicPlayerCurrentSong = "";
-	public static List<String>				musicPlayerDatabaseFull = new ArrayList<String>();
-	public static List<String>				musicPlayerDatabaseArtists = new ArrayList<String>();
-	public static List<String>				musicPlayerDatabaseAlbums = new ArrayList<String>();
-	public static List<String> 				musicPlayerDatabaseAlbumsByArtist = new ArrayList<String>();
-	public static List<String> 				musicPlayerDatabasePlayList = new ArrayList<String>();
 
 	//VARIABLES FOR MESSAGES
 	public static final int					TYPE_INBOX = 1;
@@ -139,10 +106,7 @@ public class GlobalVars extends Application
 	public static boolean 					messagesSentDatabaseReady = false;
 	public static List<String> 				messagesInboxDataBase = new ArrayList<String>();
 	public static List<String> 				messagesSentDataBase = new ArrayList<String>();
-	
-	//VARIABLES FOR APPLICATIONS
-	public static List<String> 				applicationsList = new ArrayList<String>();
-	public static boolean 					applicationsListReady = false;
+
 	
 	//VARIABLE FOR BLUETOOTH
 	public static boolean					bluetoothEnabled = false;
@@ -182,53 +146,6 @@ public class GlobalVars extends Application
 	
     public static void talk(String a)
     	{
-		try{GlobalVars.alarmVibrator.cancel();}catch(NullPointerException e){}catch(Exception e){}
-    	try
-    		{
-    		if (toastMode==true)
-    			{
-    			if (firstToast==true)
-					{
-    				mToast1 = Toast.makeText(context,a,Toast.LENGTH_SHORT);
-    				mToast1.show();
-    				try
-						{
-    					mToast2.cancel();
-    					mToast2 = null;
-						}
-						catch(Exception e)
-						{
-						}
-    				firstToast=false;
-					}
-					else
-					{
-					mToast2 = Toast.makeText(context,a,Toast.LENGTH_SHORT);
-					mToast2.show();
-					try
-						{
-						mToast1.cancel();
-						mToast1 = null;
-						}
-						catch(Exception e)
-						{
-						}
-					firstToast=true;
-					}
-    			}
-				else
-				{
-				GlobalVars.tts.stop();
-				try
-					{
-					musicPlayer.setVolume(0.1f, 0.1f);
-					}
-					catch(NullPointerException e)
-					{
-					}
-					catch(Exception e)
-					{
-					}
 				try
 					{
 					AudioManager mAudioManager = (AudioManager) GlobalVars.context.getSystemService(GlobalVars.context.AUDIO_SERVICE);
@@ -247,14 +164,10 @@ public class GlobalVars extends Application
 					{
 					}
 				}
-    		}
-    		catch(NullPointerException e)
-    		{
-    		}
-    		catch(Exception e)
-    		{
-    		}
-    	}
+
+
+
+
     
 	public static int detectMovement(MotionEvent event)
 		{
@@ -927,233 +840,10 @@ public class GlobalVars extends Application
     	return SMSNews;
 		}
     
-	public static int getPendingAlarmsForTodayCount()
-		{
-		int total = 0;
-		Calendar calendar = Calendar.getInstance();
-		String today = String.valueOf(calendar.get(Calendar.DAY_OF_WEEK));
-		for (int i=0;i<GlobalVars.alarmList.size();i++)
-			{
-			if (GlobalVars.alarmList.get(i).startsWith(today + "|"))
-				{
-				total = total + 1;
-				}
-			}
-		return total;
-		}
-		
-	public static String getPendingAlarmsForTodayCountText()
-		{
-		int total = 0;
-		Calendar calendar = Calendar.getInstance();
-		String today = String.valueOf(calendar.get(Calendar.DAY_OF_WEEK));
-		for (int i=0;i<GlobalVars.alarmList.size();i++)
-			{
-			if (GlobalVars.alarmList.get(i).startsWith(today + "|"))
-				{
-				total = total + 1;
-				}
-			}
-		if (total==0)
-			{
-			return GlobalVars.context.getResources().getString(R.string.mainAlarmsNoAlarms);			
-			}
-		else if (total==1)
-			{
-			return GlobalVars.context.getResources().getString(R.string.mainAlarmsOneAlarm);			
-			}
-		else
-			{
-			return GlobalVars.context.getResources().getString(R.string.mainAlarms) + ". " + total +
-				   GlobalVars.context.getResources().getString(R.string.mainAlarmsForToday);			
-			}
-		}
 
-	public static void scheduleAlarm(int day, int hours, int minutes, String message, int i)
-		{
-		try
-			{
-			Calendar calSet = Calendar.getInstance();
-			calSet.setTimeInMillis(System.currentTimeMillis());
-			calSet.set(Calendar.HOUR_OF_DAY, hours);
-			calSet.set(Calendar.MINUTE, minutes);
-			calSet.set(Calendar.SECOND, 0);
-			calSet.set(Calendar.MILLISECOND, 0);
-			Intent intent = new Intent("AR.COM.LRUSSO.BLINDCOMMUNICATOR.ALARM");
-			intent.putExtra("AR.COM.LRUSSO.BLINDCOMMUNICATOR.ALARM",
-							String.valueOf(day) + "|" +
-							String.valueOf(hours) + ":" +
-							String.valueOf(minutes) + "|" +
-							message);
-			PendingIntent pendingIntent = PendingIntent.getBroadcast(GlobalVars.context, i, intent, 0);
-			GlobalVars.alarmAlarmManager.set(AlarmManager.RTC_WAKEUP,calSet.getTimeInMillis(), pendingIntent);
-			GlobalVars.alarmPendingIntentArray.add(pendingIntent);
-			}
-			catch(Exception e)
-			{
-			}
-		}
 		
-	public static void clearAlarms()
-		{
-		if(GlobalVars.alarmPendingIntentArray.size()>0)
-			{
-			for(int i=0; i<GlobalVars.alarmPendingIntentArray.size(); i++)
-				{
-				GlobalVars.alarmAlarmManager.cancel(GlobalVars.alarmPendingIntentArray.get(i));
-				}
-			GlobalVars.alarmPendingIntentArray.clear();
-			}
-		GlobalVars.alarmList.clear();
-		}
-		
-	public static void createAlarm(String value)
-		{
-		GlobalVars.alarmList.add(value);
-		refreshAlarmFile();
-		openAndLoadAlarmFile();
-		}
-		
-	public static void deleteAlarm(int value)
-		{
-		try
-			{
-			GlobalVars.alarmList.remove(value);
-			}
-			catch(Exception e)
-			{
-			}
-		refreshAlarmFile();
-		openAndLoadAlarmFile();
-		}
-		
-	public static void refreshAlarmFile()
-		{
-		String toSave = "";
-		for (int i=0;i<GlobalVars.alarmList.size();i++)
-			{
-			String savedValue = GlobalVars.alarmList.get(i) + "\n";
-			if (toSave=="")
-				{
-				toSave = savedValue;
-				}
-				else
-				{
-				toSave = toSave + savedValue;
-				}
-			}
-		GlobalVars.writeFile("alarms.dat",toSave);
-		}
-		
-	public static void openAndLoadAlarmFile()
-		{
-		//CLEAR ANY PREVIOUS ALARM
-		GlobalVars.clearAlarms();
-		
-		//OPEN ALARMS.DAT AND GETS DATA
-		try
-			{
-			String result = readFile("alarms.dat");
-			Scanner scanner = new Scanner(result);
-			while (scanner.hasNextLine())
-				{
-				String line = scanner.nextLine();
-				if (line.contains("|"))
-					{
-					GlobalVars.alarmList.add(line);
-					}
-				}
-			scanner.close();
-			}
-			catch (Exception e)
-			{
-			}
-		
-		Collections.sort(GlobalVars.alarmList, new Comparator<String>(){public int compare(String s1, String s2){return s1.compareToIgnoreCase(s2);}});
-		
-		//LOAD DATA AND SCHEDULES ALARMS
-		for (int i=0;i<GlobalVars.alarmList.size();i++)
-			{
-			try
-				{
-				String value = GlobalVars.alarmList.get(i);
-				
-				int day = Integer.valueOf(GlobalVars.getAlarmDayNumber(value));
-				int hours = Integer.valueOf(GlobalVars.getAlarmHours(value));
-				int minutes = Integer.valueOf(GlobalVars.getAlarmMinutes(value));
-				String message = GlobalVars.getAlarmMessage(value);
-				
-				scheduleAlarm(day,hours,minutes,message,i);
-				}
-				catch(Exception e)
-				{
-				}
-			}
-		}
-		
-	public static String getAlarmDayNumber(String value)
-		{
-		try
-			{
-			return value.substring(0, value.indexOf("|"));
-			}
-			catch(Exception e)
-			{
-			}
-		return "999";
-		}
-		
-	public static String getAlarmDayName(String value)
-		{
-		try
-			{
-			int dayValue = Integer.valueOf(value.substring(0, value.indexOf("|")));
-			return getDayName(dayValue);
-			}
-			catch(Exception e)
-			{
-			}
-		return context.getResources().getString(R.string.monday);
-		}
-		
-	public static String getAlarmHours(String value)
-		{
-		try
-			{
-			String storedTime = value.substring(value.indexOf("|") + 1, value.lastIndexOf("|"));
-			return storedTime.substring(0,storedTime.indexOf(":"));
-			}
-			catch(Exception e)
-			{
-			}
-		return "ERR";
-		}
-		
-	public static String getAlarmMinutes(String value)
-		{
-		try
-			{
-			String storedTime = value.substring(value.indexOf("|") + 1, value.lastIndexOf("|"));
-			return storedTime.substring(storedTime.indexOf(":")+1,storedTime.length());
-			}
-			catch(Exception e)
-			{
-			}
-		return "ERR";
-		}
-		
-	public static String getAlarmMessage(String value)
-		{
-		try
-			{
-			return value.substring(value.lastIndexOf("|") + 1, value.length());
-			}
-			catch(Exception e)
-			{
-			}
-		return "ERROR";
-		}
-		
+
+
 	public static void readBookmarksDatabase()
 		{
 		GlobalVars.browserBookmarks.clear();
@@ -1206,69 +896,6 @@ public class GlobalVars extends Application
 		Collections.sort(GlobalVars.browserBookmarks, new Comparator<String>(){public int compare(String s1, String s2){return s1.compareToIgnoreCase(s2);}});
 		}
 		
-	public static void musicPlayerPreviousTrack()
-		{
-		if (GlobalVars.musicPlayerDatabasePlayList.size()>0)
-			{
-			if (GlobalVars.musicPlayerPlayingSongIndex-1==-1)
-				{
-				GlobalVars.musicPlayerPlayingSongIndex = GlobalVars.musicPlayerDatabasePlayList.size();
-				}
-				GlobalVars.musicPlayerPlayingSongIndex = GlobalVars.musicPlayerPlayingSongIndex - 1;
-
-			try
-				{
-				if (GlobalVars.musicPlayer!=null)
-					{
-					GlobalVars.musicPlayer.stop();
-					GlobalVars.musicPlayer.reset();
-					GlobalVars.musicPlayer.release();
-					GlobalVars.musicPlayer = null;
-					}
-				}
-				catch(Exception e)
-				{
-				}
-
-			//musicPlayerPlayFile();
-			}
-			else
-			{
-			GlobalVars.talk(GlobalVars.context.getResources().getString(R.string.layoutMusicPlayerNowPlayingError1));
-			}
-		}
-		
-	public static void musicPlayerNextTrack()
-		{
-		if (GlobalVars.musicPlayerDatabasePlayList.size()>0)
-			{
-			if (GlobalVars.musicPlayerPlayingSongIndex+1==GlobalVars.musicPlayerDatabasePlayList.size())
-				{
-				GlobalVars.musicPlayerPlayingSongIndex = -1;
-				}
-			GlobalVars.musicPlayerPlayingSongIndex = GlobalVars.musicPlayerPlayingSongIndex + 1;
-
-			try
-				{
-				if (GlobalVars.musicPlayer!=null)
-					{
-					GlobalVars.musicPlayer.stop();
-					GlobalVars.musicPlayer.reset();
-					GlobalVars.musicPlayer.release();
-					GlobalVars.musicPlayer = null;
-					}
-				}
-				catch(Exception e)
-				{
-				}
-			
-			//musicPlayerPlayFile();
-			}
-			else
-			{
-			GlobalVars.talk(GlobalVars.context.getResources().getString(R.string.layoutMusicPlayerNowPlayingError1));
-			}
-		}
 
 	public static String getContactNameFromPhoneNumber(String phone)
 		{
