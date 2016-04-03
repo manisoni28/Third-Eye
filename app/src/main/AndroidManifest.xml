@@ -336,7 +336,6 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".Splash"></activity>
     </application>
 
 </manifest>
