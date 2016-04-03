@@ -601,8 +601,8 @@ public class GlobalVars extends Application
 
         List<String> runningServices = new ArrayList<String>();
 
-        ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
-        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE))
+        android.app.ActivityManager manager = (android.app.ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        for (android.app.ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE))
         	{
             runningServices.add(service.service.getPackageName());
         	}
@@ -860,7 +860,7 @@ public class GlobalVars extends Application
     	final String[] projection = null;
     	final String selection = null;
     	final String[] selectionArgs = null;
-    	final String sortOrder = CallLog.Calls.DATE + " DESC";
+    	final String sortOrder = android.provider.CallLog.Calls.DATE + " DESC";
     	Cursor cursor = null;
     	int count = 0;
     	try
@@ -868,8 +868,8 @@ public class GlobalVars extends Application
     	    cursor = context.getContentResolver().query(Uri.parse("content://call_log/calls"),projection,selection,selectionArgs,sortOrder);
     	    while (cursor.moveToNext())
 				{ 
-    	        String callType = cursor.getString(cursor.getColumnIndex(CallLog.Calls.TYPE));
-    	        String isCallNew = cursor.getString(cursor.getColumnIndex(CallLog.Calls.NEW));
+    	        String callType = cursor.getString(cursor.getColumnIndex(android.provider.CallLog.Calls.TYPE));
+    	        String isCallNew = cursor.getString(cursor.getColumnIndex(android.provider.CallLog.Calls.NEW));
     	        if(Integer.parseInt(callType) == CallLog.Calls.MISSED_TYPE && Integer.parseInt(isCallNew) > 0)
 					{
     	        	count = count + 1;
