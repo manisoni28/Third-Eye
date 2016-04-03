@@ -9,7 +9,6 @@ import android.telephony.SmsMessage;
  */
 public class SmsReceiver extends BroadcastReceiver
 	{
-
     @Override public void onReceive(Context context, Intent intent)
     	{
         Bundle extras = intent.getExtras();
